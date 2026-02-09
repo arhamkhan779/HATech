@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HATech - Advanced AI & ML Solutions | Machine Learning, Computer Vision, NLP & Agentic AI</title>
+    <meta name="description" content="HATech delivers cutting-edge AI solutions: Machine Learning, Computer Vision, NLP, Generative AI, Agentic AI, Automation & Deployment.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Using distinctive typography: Syne for headings, DM Sans for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo-wrapper">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 2L38 12V28L20 38L2 28V12L20 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M20 12L28 17V27L20 32L12 27V17L20 12Z" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">HATech</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#careers" class="nav-link">Careers</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-bg">
+            <div class="grid-pattern"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">AI-Powered Solutions</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Building the Future</span>
+                    <span class="title-line">with Intelligent AI</span>
+                </h1>
+                <p class="hero-description">
+                    Transforming industries through cutting-edge artificial intelligence, 
+                    machine learning, and deep learning solutions that drive innovation and growth.
+                </p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+            
+            <!-- Key Services Highlight -->
+            <div class="services-highlight">
+                <div class="service-card" data-aos="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Advanced ML models that learn and adapt to your business needs</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="150">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <p>Intelligent systems that see, interpret, and understand visual data</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>NLP</h3>
+                    <p>Natural language processing for understanding and generating human language</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="250">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Generative AI</h3>
+                    <p>Creating original content, code, and solutions using advanced AI models</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Agentic AI</h3>
+                    <p>Autonomous AI agents that take actions and make decisions</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-delay="350">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        </svg>
+                    </div>
+                    <h3>Automation & Deployment</h3>
+                    <p>Streamlined workflows and production-ready AI system deployment</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Who We Are</span>
+                <h2 class="section-title">About HATech</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="company-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Established</h4>
+                            <p>2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="company-description">
+                        <h3>Our Vision</h3>
+                        <p>To be the global leader in democratizing artificial intelligence, making advanced AI solutions accessible and transformative for organizations across all industries.</p>
+                    </div>
+                    
+                    <div class="company-description">
+                        <h3>Our Mission</h3>
+                        <p>We empower businesses to harness the full potential of AI through innovative, ethical, and scalable solutions. Our mission is to bridge the gap between cutting-edge research and real-world applications, delivering measurable impact and sustainable growth.</p>
+                    </div>
+                </div>
+                
+                <!-- Team Section -->
+                <div class="team-section" data-aos="fade-left">
+                    <h3 class="team-title">Founding Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <div class="photo-placeholder">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Arham Khan</h4>
+                                <p class="member-role">Co-Founder & Lead AI Engineer</p>
+                                <p class="member-bio">Expert in AI system architecture and design. Specializes in Machine Learning, Deep Learning, NLP, and Generative AI development. Leads research, experimentation, and deployment of cutting-edge AI solutions.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <div class="photo-placeholder">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Hassan Hamidi</h4>
+                                <p class="member-role">Co-Founder & AI/Data Engineer</p>
+                                <p class="member-bio">Specializes in data analytics and preprocessing pipelines. Expert in model training, optimization, automation workflows, and backend integration for production AI systems.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <div class="photo-placeholder">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Muhammad Taimoor Khan</h4>
+                                <p class="member-role">Co-Founder & AI Solutions Engineer</p>
+                                <p class="member-bio">Expert in Computer Vision and applied AI solutions. Focuses on deployment, system integration, and AI solution design and implementation across various industries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">AI Solutions by Industry</h2>
+                <p class="section-description">Tailored artificial intelligence solutions designed for your industry's unique challenges</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Healthcare -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="100">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3>Healthcare AI</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Medical image analysis and diagnostic AI</li>
+                        <li>Patient data analytics and predictions</li>
+                        <li>Drug discovery and clinical trial optimization</li>
+                        <li>Personalized treatment recommendations</li>
+                        <li>Healthcare workflow automation</li>
+                    </ul>
+                </div>
+                
+                <!-- Agriculture -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="200">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a9 9 0 0 0-9 9c0 4 3 7 6 9 3-2 6-5 6-9a9 9 0 0 0-3-6.71"/>
+                                <circle cx="12" cy="11" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Agriculture AI</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Crop health monitoring via satellite imagery</li>
+                        <li>Precision agriculture and yield prediction</li>
+                        <li>Pest and disease detection systems</li>
+                        <li>Automated irrigation optimization</li>
+                        <li>Supply chain and market analytics</li>
+                    </ul>
+                </div>
+                
+                <!-- Finance -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="300">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"/>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <h3>Finance AI</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Fraud detection and prevention systems</li>
+                        <li>Algorithmic trading and risk management</li>
+                        <li>Credit scoring and loan approval automation</li>
+                        <li>Customer behavior prediction and segmentation</li>
+                        <li>Regulatory compliance and reporting automation</li>
+                    </ul>
+                </div>
+                
+                <!-- Education -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="100">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                        </div>
+                        <h3>Education AI</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Personalized learning path generation</li>
+                        <li>Automated grading and assessment systems</li>
+                        <li>Student performance prediction and intervention</li>
+                        <li>Intelligent tutoring systems</li>
+                        <li>Content recommendation engines</li>
+                    </ul>
+                </div>
+                
+                <!-- Business & Enterprise -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="200">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                        <h3>Business & Enterprise AI</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Intelligent process automation (RPA + AI)</li>
+                        <li>Customer service chatbots and virtual assistants</li>
+                        <li>Demand forecasting and inventory optimization</li>
+                        <li>Employee productivity and HR analytics</li>
+                        <li>Business intelligence and predictive analytics</li>
+                    </ul>
+                </div>
+                
+                <!-- Technology & Research -->
+                <div class="industry-service" data-aos="zoom-in" data-delay="300">
+                    <div class="service-header">
+                        <div class="service-icon-large">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                                <polyline points="2 17 12 22 22 17"/>
+                                <polyline points="2 12 12 17 22 12"/>
+                            </svg>
+                        </div>
+                        <h3>Technology & Research</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Custom model training and fine-tuning</li>
+                        <li>MLOps and AI infrastructure consulting</li>
+                        <li>Research collaboration and prototyping</li>
+                        <li>AI ethics and governance frameworks</li>
+                        <li>Edge AI and IoT integration solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Discover our cutting-edge AI solutions spanning healthcare, NLP, computer vision, and automation</p>
+            </div>
+            
+            <div class="projects-carousel-wrapper">
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically loaded by JavaScript -->
+                </div>
+                <button class="carousel-nav carousel-prev" id="projPrev" aria-label="Previous projects">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel-nav carousel-next" id="projNext" aria-label="Next projects">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Video Modal -->
+        <div class="video-modal" id="videoModal">
+            <div class="video-modal-content">
+                <button class="modal-close" id="modalClose">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <video id="modalVideo" controls preload="auto" poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%23000' width='1920' height='1080'/%3E%3Ccircle cx='960' cy='540' r='80' fill='%2300e5ff' opacity='0.3'/%3E%3Cpath d='M920 500 L920 580 L1000 540 Z' fill='%2300e5ff'/%3E%3C/svg%3E">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="section careers-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Join Our Team</span>
+                <h2 class="section-title">Open Positions</h2>
+                <p class="section-description">Help us shape the future of AI. We're looking for passionate, talented individuals to join our growing team.</p>
+            </div>
+            
+            <div class="careers-grid">
+                <div class="job-card" data-aos="fade-up" data-delay="100">
+                    <div class="job-header">
+                        <h3>DevOps Engineer</h3>
+                        <span class="job-type">Full-Time</span>
+                    </div>
+                    <div class="job-meta">
+                        <span class="job-location">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Remote / Hybrid
+                        </span>
+                        <span class="job-experience">2-3 years</span>
+                    </div>
+                    <p class="job-description">We're seeking a skilled DevOps Engineer to manage and optimize our AI/ML infrastructure, ensuring scalability, reliability, and performance.</p>
+                    <div class="job-requirements">
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>Strong background in DevOps, CI/CD, and cloud deployment</li>
+                            <li>Experience with containerization (Docker, Kubernetes)</li>
+                            <li>Familiarity with Python and ML/DL model deployment</li>
+                            <li>Experience in automated testing, monitoring, and scaling of AI applications</li>
+                            <li>Interest in working on AI-driven production systems</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary apply-btn">Apply Now</button>
+                </div>
+                
+                <div class="job-card" data-aos="fade-up" data-delay="200">
+                    <div class="job-header">
+                        <h3>Frontend / Full-Stack Developer</h3>
+                        <span class="job-type">Full-Time</span>
+                    </div>
+                    <div class="job-meta">
+                        <span class="job-location">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Remote / Hybrid
+                        </span>
+                        <span class="job-experience">Junior Level</span>
+                    </div>
+                    <p class="job-description">Join our team to build beautiful, responsive user interfaces for our AI-powered applications and products.</p>
+                    <div class="job-requirements">
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>Strong knowledge of HTML, CSS, JavaScript</li>
+                            <li>Experience with React (preferred) or similar frameworks</li>
+                            <li>Interest in AI-based product development</li>
+                            <li>Ability to work with APIs and integrate backend services</li>
+                            <li>Passion for creating user-friendly interfaces</li>
+                            <li>Good communication and teamwork skills</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary apply-btn">Apply Now</button>
+                </div>
+            </div>
+            
+            <div class="careers-cta" data-aos="fade-up">
+                <p>Don't see a position that fits? We're always looking for exceptional talent.</p>
+                <a href="#contact" class="btn btn-outline">Send us your resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">Let's discuss how we can help transform your business with AI</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:hattech129@gmail.com">hattech129@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <div class="phone-numbers">
+                                <a href="tel:+923377251421">+92 337-7251421</a>
+                                <a href="tel:+923001791975">+92 300-1791975</a>
+                                <a href="tel:+923103821472">+92 310-3821472</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/hatech" target="_blank" rel="noopener noreferrer">github.com/hatech</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Office</h4>
+                            <p>123 Innovation Drive<br>San Francisco, CA 94105</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Send Message
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        <p>Thank you! Your message has been sent successfully.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 2L38 12V28L20 38L2 28V12L20 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M20 12L28 17V27L20 32L12 27V17L20 12Z" fill="currentColor"/>
+                        </svg>
+                        <span>HATech</span>
+                    </div>
+                    <p class="footer-description">Building the future with intelligent AI solutions. Empowering businesses across industries to harness the transformative power of artificial intelligence.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/hatech" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:hattech129@gmail.com">hattech129@gmail.com</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:+923377251421">+92 337-7251421</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 HATech. All rights reserved. Built with passion for AI innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- External Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
